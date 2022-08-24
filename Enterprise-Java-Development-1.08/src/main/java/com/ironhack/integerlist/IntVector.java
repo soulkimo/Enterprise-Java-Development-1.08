@@ -4,7 +4,7 @@ import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.ArrayList;
 
-public class IntVector implements IntList{
+public class IntVector implements IntList {
 
     private ArrayList<Integer> integerArrayList;
     static final int LENGTH_DEFAULT = 20;
@@ -34,5 +34,6 @@ public class IntVector implements IntList{
     public Integer get(int id) {
         return integerArrayList.get(id);
     }
+
 }
 
